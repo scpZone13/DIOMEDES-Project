@@ -89,6 +89,12 @@ area/space/atmosalert()
 /area/space/partyalert()
 	return
 
+/area/out
+	name = "\improper Outland"
+	icon_state = "out"
+	requires_power = 0
+	lighting_use_dynamic = 0
+
 //////////////////////
 //AREAS USED BY CODE//
 //////////////////////
